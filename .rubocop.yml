@@ -1,0 +1,11 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - 'emv-qr.gemspec'
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/**/*'
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
