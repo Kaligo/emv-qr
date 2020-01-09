@@ -3,6 +3,10 @@ AllCops:
   Exclude:
     - 'emv-qr.gemspec'
 
+Metrics/BlockLength:
+  Exclude:
+    - 'lib/emv_qr/schema.rb'
+
 Style/ClassAndModuleChildren:
   Exclude:
     - 'test/**/*'

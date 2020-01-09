@@ -27,6 +27,10 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ["lib"]
 
+  # Runtime dependencies.
+  #
+  spec.add_runtime_dependency "dry-schema", "~> 1.4"
+
   # Development dependencies.
   #
   spec.add_development_dependency "minitest", "~> 5"
