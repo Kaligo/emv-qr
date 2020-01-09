@@ -12,7 +12,8 @@ Gem::Specification.new do |spec|
   spec.description   = "EMV QR String Encoder"
   spec.homepage      = "https://www.github.com/kaligo/emv-qr"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["source_code_uri"] = "https://www.github.com/kaligo/emv-qr"
   spec.metadata["changelog_uri"]   = "https://www.github.com/kaligo/emv-qr/CHANGELOG.md"
@@ -25,4 +26,10 @@ Gem::Specification.new do |spec|
   end
 
   spec.require_paths = ["lib"]
+
+  # Development dependencies.
+  #
+  spec.add_development_dependency "minitest", "~> 5"
+  spec.add_development_dependency "rake",     "~> 12"
+  spec.add_development_dependency "rubocop",  "< 1"
 end

@@ -2,10 +2,6 @@
 
 source "https://rubygems.org"
 
-# Dependencies.
+# Dependencies can be found in the gemspec file.
 #
 gemspec
-
-gem "minitest", "~> 5"
-gem "rake",     "~> 12"
-gem "rubocop"
