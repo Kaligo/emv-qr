@@ -29,7 +29,8 @@ Gem::Specification.new do |spec|
 
   # Runtime dependencies.
   #
-  spec.add_runtime_dependency "dry-schema", "~> 1.4"
+  spec.add_runtime_dependency "dry-schema",      "~> 1.4"
+  spec.add_runtime_dependency "dry-transaction", "~> 0.13"
 
   # Development dependencies.
   #

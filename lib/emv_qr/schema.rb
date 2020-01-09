@@ -2,7 +2,7 @@
 
 require "dry-schema"
 
-Dry::Schema.load_extensions(:hints)
+Dry::Schema.load_extensions(:monads)
 
 module EmvQr
   # This class defines a schema for the input format expected by the
@@ -164,4 +164,5 @@ module EmvQr
       end
     end
   end
+  private_constant :Schema
 end
